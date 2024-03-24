@@ -1,12 +1,18 @@
 <script setup>
-defineProps({
-  msg: String
-});
 </script>
 
 <template>
-  <h1>{{ msg }}</h1>
+  <header>
+    <a class="main-logo" href="#">ARC</a>
+  </header>
 </template>
 
 <style scoped>
+header {
+  padding: 20px;
+  background-color: #000;
+}
+.main-logo {
+  color: white;
+}
 </style>
