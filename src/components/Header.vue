@@ -1,9 +1,11 @@
 <script setup>
-import Header from '@/components/Header.vue';
+defineProps({
+  msg: String
+});
 </script>
 
 <template>
-  <Header msg="ARC" />
+  <h1>{{ msg }}</h1>
 </template>
 
 <style scoped>
