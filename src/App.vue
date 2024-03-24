@@ -1,10 +1,10 @@
 <script setup>
-import HelloWorld from "@/components/HelloWorld.vue";
+import Header from '@/components/Header.vue';
 </script>
 
 <template>
-  <HelloWorld msg="ARC" />
+  <Header />
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 </style>
