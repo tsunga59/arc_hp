@@ -3,16 +3,19 @@
 
 <template>
   <header>
-    <a class="main-logo" href="#">ARC</a>
+    <a class="main-logo" href="#">ARC.</a>
   </header>
 </template>
 
 <style lang="scss" scoped>
 header {
+  width: 100%;
   padding: 20px;
-  background-color: #000;
+  position: static;
 }
 .main-logo {
-  color: white;
+  font-size: 2rem;
+  letter-spacing: .3rem;
+  color: #000;
 }
 </style>
