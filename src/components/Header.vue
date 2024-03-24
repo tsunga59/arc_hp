@@ -7,7 +7,7 @@
   </header>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 header {
   padding: 20px;
   background-color: #000;
