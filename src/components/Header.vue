@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <header>
+  <header id="header">
     <a class="main-logo" href="#">ARC.</a>
   </header>
 </template>
@@ -10,7 +10,7 @@
 <style lang="scss" scoped>
 header {
   width: 100%;
-  padding: 20px;
+  padding: 2rem;
   position: static;
 }
 .main-logo {
