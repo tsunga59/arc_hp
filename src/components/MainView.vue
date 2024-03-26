@@ -3,32 +3,39 @@
 
 <template>
   <div id="main-view" class="main-view">
-    <p class="main-text en">
-      From Ambition to Realization, We Commit to Your Dreams.
-    </p>
-    <p class="main-text jp">
-      野心から実現へ、我々はあなたの夢にコミットします。
-    </p>
-    <h1 class="main-logo">
-      ARC Co.
-    </h1>
-    <div class="contact-btn">
-      <a href="#contact">
-        Contact
-      </a>
+    <div class="container">
+      <p class="main-text en">
+        From Ambition to Realization, We Commit to Your Dreams.
+      </p>
+      <p class="main-text jp">
+        野心から実現へ、我々はあなたの夢にコミットします。
+      </p>
+      <h1 class="main-logo">
+        ARC Co.
+      </h1>
+      <div class="contact-btn">
+        <a href="#contact">
+          Contact
+        </a>
+      </div>
     </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
 .main-view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  width: 85%;
-  padding: 2rem;
-  margin: 6rem auto;
+  height: 100vh;
+}
+.container {
+  width: 100%;
+  padding: 6rem;
+  box-sizing: border-box;
 }
 .main-text {
-  color: #000;
   &.en {
     font-size: 1.6rem;
     margin-bottom: .4rem;
@@ -48,7 +55,6 @@
     display: inline-block;
     font-size: 1.2rem;
     letter-spacing: .2rem;
-    color: #000;
     border: 1px solid #000;
     padding: 1rem 4rem;
     &:hover {
