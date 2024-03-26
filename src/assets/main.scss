@@ -4,9 +4,13 @@ body {
   padding: 0;
   margin: 0;
 }
-h1, p {
+h1, h2, p, ul, li {
   font-weight: normal;
+  padding: 0;
   margin: 0;
+}
+li {
+  list-style: none;
 }
 a {
   text-decoration: none;
