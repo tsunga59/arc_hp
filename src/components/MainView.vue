@@ -25,7 +25,7 @@
   text-align: center;
   width: 85%;
   padding: 2rem;
-  margin: 4rem auto;
+  margin: 6rem auto;
 }
 .main-text {
   color: #000;
